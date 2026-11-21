@@ -196,12 +196,13 @@ const PROGRAMA = {
   ])
 };
 
-/* ---------- PORTFÓLIO: 17 REDAÇÕES ----------
-   notas: [C1, C2, C3, C4, C5] — nota em cada competência do ENEM.
-   Valores possíveis: 0, 40, 80, 120, 160 ou 200 (cada competência vale até 200;
-   a redação inteira vale até 1000).
-   ⚠️ As notas abaixo são EXEMPLOS. Troque pelas notas reais de cada redação. */
-const NOTAS_SAO_EXEMPLO = true;   // mude para false quando colocar as notas reais
+/* ---------- PORTFÓLIO DE REDAÇÕES ----------
+   Cada redação tem: titulo, tema (tipo do texto), ano, data, nota (total, de 0 a 1000) e texto.
+   Se um dia você tiver a nota de cada competência do ENEM, troque `nota: 920` por
+   `notas: [C1, C2, C3, C4, C5]` (valores 0, 40, 80, 120, 160 ou 200) e os gráficos por
+   competência aparecem sozinhos (só aparecem quando TODAS as redações tiverem `notas`).
+   Para separar parágrafos no texto, use uma linha em branco. */
+const NOTAS_SAO_EXEMPLO = false;
 
 const COMPETENCIAS = [
   { sigla: "C1", nome: "Domínio da norma culta" },
@@ -211,28 +212,51 @@ const COMPETENCIAS = [
   { sigla: "C5", nome: "Proposta de intervenção" }
 ];
 
-const TEXTO_EXEMPLO =
-  "Cole aqui o texto completo da sua redação.\n\n" +
-  "Use uma linha em branco para separar os parágrafos: introdução, desenvolvimento e conclusão.";
-
 const REDACOES = [
-  { titulo: "Título da redação 1",  tema: "Dissertativo-argumentativo", ano: "1º ano", data: "Fev/2024", notas: [120, 120,  80, 120,  80], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 2",  tema: "Crônica",                    ano: "1º ano", data: "Mar/2024", notas: [120, 120, 120, 120, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 3",  tema: "Dissertativo-argumentativo", ano: "1º ano", data: "Abr/2024", notas: [120, 160, 120, 120,  80], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 4",  tema: "Conto",                      ano: "1º ano", data: "Jun/2024", notas: [160, 120, 120, 120, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 5",  tema: "Carta argumentativa",        ano: "1º ano", data: "Set/2024", notas: [120, 160, 120, 160, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 6",  tema: "Dissertativo-argumentativo", ano: "2º ano", data: "Fev/2025", notas: [160, 160, 120, 120, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 7",  tema: "Resenha",                    ano: "2º ano", data: "Mar/2025", notas: [120, 160, 160, 120, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 8",  tema: "Dissertativo-argumentativo", ano: "2º ano", data: "Abr/2025", notas: [160, 160, 120, 160, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 9",  tema: "Crônica",                    ano: "2º ano", data: "Mai/2025", notas: [160, 120, 160, 160, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 10", tema: "Artigo de opinião",          ano: "2º ano", data: "Ago/2025", notas: [160, 160, 160, 120, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 11", tema: "Dissertativo-argumentativo", ano: "2º ano", data: "Out/2025", notas: [160, 160, 160, 160, 120], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 12", tema: "Dissertativo-argumentativo", ano: "3º ano", data: "Fev/2026", notas: [160, 160, 160, 160, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 13", tema: "Simulado Enem",              ano: "3º ano", data: "Mar/2026", notas: [160, 200, 160, 160, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 14", tema: "Simulado Enem",              ano: "3º ano", data: "Abr/2026", notas: [160, 160, 160, 160, 200], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 15", tema: "Artigo de opinião",          ano: "3º ano", data: "Mai/2026", notas: [200, 160, 160, 160, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 16", tema: "Simulado Enem",              ano: "3º ano", data: "Ago/2026", notas: [160, 200, 160, 200, 160], texto: TEXTO_EXEMPLO },
-  { titulo: "Título da redação 17", tema: "Texto livre",                ano: "3º ano", data: "Out/2026", notas: [200, 200, 160, 160, 200], texto: TEXTO_EXEMPLO }
+  {
+    titulo: "O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 920,
+    texto: `A sociedade atual convive com múltiplas diferenças culturais, socias, de gênero e raciais. Essas diferenças se tornaram essenciais para uma convivência harmônica. Apesar de problemas como sexismo, intolerância e preconceito ainda são presentes. Nesse contexto o respeito e a empatia com as diferenças tornam-se necessários para o desenvolvimento social.
+
+O respeito é fundamental para combater preconceitos e violências, como exemplificado pela diferença salarial entre homens e mulheres no Brasil, que, segundo o G1, chegou a 21% em 2025. Esse cenário demonstra como visões preconceituosas ainda influenciam relações sociais e profissionais, reforçando a importância de promover a valorização da igualdade e do respeito às diferenças.
+
+Além disso, o respeito é uma porta de entrada para a superação das adversidades. Entretanto, o respeito não se faz sem empatia. No filme "O extraordinário", a superação das diferenças por meio da empatia e respeito exemplificada na relação entre Auggi e seu amigo. Esse exemplo demonstra que o contato com a diversidade e o desenvolvimento da empatia podem contribuir para reduzir preconceitos e fortalecer relações mais humanas.
+
+Conclui-se que para a superação das diferenças por meio do respeito e da empatia, é essencial que o Ministério das Relações Sociais crie e promova palestras públicas em escolas e outros espaços, visando conscientizar principalmente o público entre 20 e 30 anos, com temas sobre respeito às diferenças e empatia, contando com profissionais capacitados e acompanhamento de resultados.`
+  },
+  {
+    titulo: "Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    texto: `O filme Wall-E apresenta uma Terra devastada pelo consumo excessivo e pela degradação ambiental. Atualmente, o Brasil sofre impactos sociais e econômicos devido às mudanças no ciclo hidrológico. Nesse contexto, identifica-se que o problema se sustenta pelos ideais capitalistas extremos e, sobretudo, pelas ações das empresas agropecuárias que desmatam grandes áreas.
+
+Na sociedade moderna, o egoísmo humano influencia brutalmente as mudanças climáticas. Albert Einstein citou que "eu não sei como será a Terceira Guerra Mundial, mas sei que a quarta será com paus e pedras". Baseado nessa citação, compreende-se que o desejo de possuir imoderadamente influencia os ciclos hidrológicos, quando empresas exploram os recursos naturais para gerar riqueza sem observar os impactos da devastação e os efeitos sociais produzidos.
+
+Além disso, empresas agropecuárias utilizam grandes áreas para plantio e pecuária. De acordo com o G1, a Amazônia perdeu mais de 52 milhões de hectares nos últimos 40 anos, com cerca de 90% do desmatamento destinado para pastagem de gado. As árvores são responsáveis por liberar água na atmosfera e, quando retiradas, resultam no desequilíbrio hidrológico. Assim, quando essas empresas realizam o desmatamento, elas aprofundam o desafio dos ciclos hidrológicos.
+
+Conclui-se, portanto, que cabe ao governo federal, à polícia ambiental e ao Ministério da Agropecuária reforçar a fiscalização sobre a extração de recursos naturais. Para isso, é necessário utilizar tecnologias como câmeras e drones, além da atuação de agentes especializados, com o financiamento proveniente de fundos do próprio ministério. Dessa forma, será possível reduzir os casos de extração ilegal`
+  },
+  {
+    titulo: "A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    texto: `O conceito de Indústria Cultural explica como a mídia influencia comportamentos e impõe padrões à sociedade. Atualmente, o Brasil enfrenta o aumento do uso de canetas emagrecedoras de forma indiscriminada, principalmente entre jovens que buscam resultados rápidos. Nesse contexto, identifica-se que o problema se sustenta pela retomada do padrão de magreza extrema e, sobretudo, pela influência das redes sociais. Na sociedade moderna, a busca por aceitação influencia diretamente nessas escolhas.
+
+Nesse sentido, muitas pessoas utilizam essas substâncias sem orientação médica, apenas com o objetivo estético. Esses medicamentos foram desenvolvidos para tratar doenças, mas são usados de forma inadequada, o que pode causar efeitos colaterais como mal-estar e alterações no organismo. Quando indivíduos priorizam a aparência acima da saúde, acabam colocando o próprio corpo em risco.
+
+Além disso, observa-se a volta da valorização da magreza extrema, impulsionada por tendências nas redes sociais. Esse padrão faz com que muitas pessoas se sintam insatisfeitas com o próprio corpo e busquem métodos rápidos para emagrecer. Dessa forma, o uso dessas canetas aumenta, mesmo sem necessidade, reforçando um comportamento prejudicial.
+
+Conclui-se, portanto, que cabe ao governo federal e aos órgãos de saúde intensificar a fiscalização sobre a venda dessas substâncias. Para isso, é necessário promover campanhas informativas nas redes sociais e utilizar meios de comunicação para alertar a população sobre os riscos do uso indevido, com apoio de profissionais da saúde. Dessa forma, será possível reduzir o uso indiscriminado e promover mais cuidado com a saúde`
+  },
+  {
+    titulo: "O uso da Inteligência Artificial e as deepfakes: o que é real e o que é fictício na vida online?",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    texto: `O filme “Matrix” apresenta uma realidade em que as pessoas não conseguem distinguir o que é real do que é simulado. Fora da ficção, esse cenário tem se tornado cada vez mais próximo com o avanço da Inteligência Artificial e o surgimento das deepfakes. No Brasil, o uso dessas tecnologias gera preocupação, já que a manipulação de imagens, vídeos e áudios pode comprometer a confiança nas informações. Nesse contexto, percebe-se que o problema está ligado tanto ao avanço tecnológico quanto à falta de preparo da população para lidar com esse tipo de conteúdo.
+
+Atualmente, a circulação de conteúdos falsos influencia como as pessoas enxergam a realidade. Muitas vezes, vídeos e imagens manipulados parecem verdadeiros, dificultando a identificação do que é real. Com isso, informações falsas podem se espalhar rapidamente, prejudicando a imagem de pessoas e confundindo a população. Além disso, com o fácil acesso a ferramentas digitais, qualquer pessoa pode criar conteúdos manipulados e compartilhá-los nas redes sociais.
+
+Outro ponto importante é a falta de controle sobre esse tipo de conteúdo. Muitas plataformas digitais ainda não conseguem identificar e remover rapidamente materiais falsificados. Isso faz com que os usuários fiquem expostos a informações enganosas, o que pode causar confusão, golpes e difamação.
+
+Portanto, é necessário que o governo e as empresas de tecnologia tomem medidas para diminuir esse problema. Para isso, podem ser criadas leis para regular o uso da Inteligência Artificial, além de investimentos em sistemas que identifiquem conteúdos falsos e garantam mais segurança digital`
+  }
 ];
 
 /* =========================================================
@@ -247,12 +271,17 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 const soma = (arr) => arr.reduce((a, b) => a + b, 0);
-const total = (r) => soma(r.notas);
+const total = (r) => (r.nota !== undefined ? r.nota : soma(r.notas));
 
 /* ---------- Dados básicos na página ---------- */
 $("#nomeAluno").textContent = NOME_ALUNO;
 $("#mensagemFinal").textContent = MENSAGEM_FINAL;
 document.title = `${NOME_ALUNO} | Formatura 2026`;
+
+/* Quantidade de redações: atualiza o texto e o contador sozinho */
+const lead = $("#redacoes .section-head .lead");
+if (lead) lead.textContent = `As ${REDACOES.length} produções que escrevi nas aulas de Língua Portuguesa e Redação. Clique em um card para ler.`;
+$$("[data-count]").forEach((el) => { if (el.dataset.count === "17") el.dataset.count = REDACOES.length; });
 
 /* ---------- Tema claro/escuro (lembra a escolha) ---------- */
 const themeBtn = $("#themeToggle");
@@ -480,7 +509,7 @@ function abrirModal(idx, lista = listaAtual) {
   $("#modalTitulo").textContent = r.titulo;
   $("#modalNotas").innerHTML =
     `<span class="pill total">Nota ${total(r)}/1000</span>` +
-    r.notas.map((v, i) => `<span class="pill" title="${esc(COMPETENCIAS[i].nome)}">${COMPETENCIAS[i].sigla}: ${v}</span>`).join("");
+    (r.notas ? r.notas.map((v, i) => `<span class="pill" title="${esc(COMPETENCIAS[i].nome)}">${COMPETENCIAS[i].sigla}: ${v}</span>`).join("") : "");
   $("#modalTexto").textContent = r.texto;
   $("#modalPos").textContent = `${idx + 1} / ${lista.length}`;
   $("#prevBtn").disabled = idx === 0;
@@ -563,7 +592,8 @@ function renderEnem() {
     ? "⚠️ Notas de exemplo — substitua pelas notas reais em js/script.js. A linha tracejada é a média da competência; clique em uma barra para abrir a redação."
     : "A linha tracejada é a média da competência. Clique em uma barra para abrir a redação.";
 }
-renderEnem();
+if (REDACOES.every((r) => Array.isArray(r.notas))) renderEnem();
+else $("#enem").classList.add("hidden");
 
 /* Clicar numa barra abre a redação correspondente */
 function abrirBarra(el) {
