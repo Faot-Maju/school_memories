@@ -254,6 +254,28 @@ Atualmente, a circulação de conteúdos falsos influencia como as pessoas enxer
 Outro ponto importante é a falta de controle sobre esse tipo de conteúdo. Muitas plataformas digitais ainda não conseguem identificar e remover rapidamente materiais falsificados. Isso faz com que os usuários fiquem expostos a informações enganosas, o que pode causar confusão, golpes e difamação.
 
 Portanto, é necessário que o governo e as empresas de tecnologia tomem medidas para diminuir esse problema. Para isso, podem ser criadas leis para regular o uso da Inteligência Artificial, além de investimentos em sistemas que identifiquem conteúdos falsos e garantam mais segurança digital`
+  },
+  {
+    titulo: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 200, 200, 200, 200],
+    texto: `A agricultura desempenha um papel fundamental para a sociedade, uma vez que garante o abastecimento de alimentos, gera empregos e impulsiona a economia. No Brasil, o agronegócio destaca-se pela elevada produção e exportação de produtos agrícolas. Segundo dados divulgados pelo G1, o setor foi responsável por cerca de 24% do Produto Interno Bruto (PIB) brasileiro em 2023, evidenciando sua expressiva contribuição para o desenvolvimento nacional. Contudo, paralelamente ao crescimento da atividade agrícola, surgem desafios ambientais, como o desmatamento, a poluição e a degradação do solo. Diante desse cenário, torna-se indispensável conciliar o avanço produtivo com a preservação dos recursos naturais.
+
+Sob essa perspectiva, a tecnologia exerce papel decisivo na construção de uma agricultura mais eficiente e ambientalmente responsável. De acordo com a Embrapa, recursos como drones, sensores e sistemas de irrigação inteligente permitem reduzir desperdícios e ampliar a produtividade. Somado a isso, o emprego de práticas como a rotação de culturas favorece a conservação do solo e diminui os impactos ambientais. Assim, fica evidente que a inovação tecnológica pode promover o desenvolvimento do setor sem comprometer a sustentabilidade.
+
+Além dos avanços tecnológicos, a preservação ambiental constitui um fator indispensável para a continuidade da produção agrícola. Os povos Kayapó, por exemplo, utilizam os recursos naturais de forma equilibrada há gerações, demonstrando que o ser humano pode estabelecer uma relação harmoniosa com a natureza. Em contrapartida, o aumento das queimadas e do desmatamento tem provocado alterações climáticas que afetam diretamente o regime de chuvas e a produtividade das lavouras. Consequentemente, os prejuízos atingem não apenas o meio ambiente, mas também a economia e a segurança alimentar da população.
+
+Portanto, o Governo Federal, em parceria com o Ministério da Agricultura e os órgãos ambientais, deve intensificar a fiscalização das áreas agrícolas por meio do monitoramento via satélite, do uso de drones e da ampliação das equipes de inspeção, aplicando sanções mais rigorosas aos responsáveis por práticas ilegais. Além disso, o Ministério da Agricultura deve ampliar programas de incentivo financeiro e capacitação técnica para produtores rurais que adotem métodos sustentáveis, como a rotação de culturas, a irrigação inteligente e o plantio direto. Paralelamente, as escolas devem promover palestras, projetos e campanhas de educação ambiental, a fim de conscientizar os jovens sobre a importância da preservação dos recursos naturais. Dessa maneira, será possível fortalecer o agronegócio brasileiro, aumentar a produtividade e garantir um futuro sustentável para as próximas gerações`
+  },
+  {
+    titulo: "Inclusão digital no Brasil: caminhos e desafios na sociedade contemporânea",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 160, 200, 160, 200],
+    texto: `Na obra "1984", de George Orwell, é retratada uma sociedade na qual o acesso à informação exerce grande influência sobre a vida dos indivíduos. Atualmente, a inclusão digital vem se tornando cada vez mais necessária no Brasil. Entretanto, muitas pessoas ainda enfrentam dificuldades para acessar a internet e utilizar recursos tecnológicos. Dessa forma, a desigualdade social e a falta de infraestrutura configuram-se como os principais fatores responsáveis por esse problema.
+
+Diante desse cenário, é possível identificar que grande parte da população brasileira sofre com a desigualdade social. Em razão da baixa renda, muitas famílias não possuem condições financeiras para adquirir computadores, celulares de qualidade ou contratar serviços de internet. Como consequência, milhares de estudantes e trabalhadores têm seu acesso à informação limitado, dificultando o desenvolvimento educacional e profissional.
+
+Além disso, consegue-se compreender que a falta de infraestrutura também contribui para a exclusão digital. Grande parte das regiões rurais e afastadas dos centros urbanos não possui acesso adequado à internet. Ainda nesse contexto, a precariedade dos serviços de conexão impede que muitas pessoas utilizem recursos essenciais, como plataformas educacionais, serviços públicos digitais e oportunidades de emprego.
+
+Conclui-se que, para combater essa problemática, o Ministério das Comunicações e o Ministério da Educação devem ampliar os investimentos em infraestrutura tecnológica e expandir o acesso à internet em todo o território nacional. Assim, é necessário promover programas de capacitação digital nas escolas e comunidades. Assim, busca-se garantir que a população brasileira esteja mais preparada e informada para participar da sociedade contemporânea, reduzindo os impactos da exclusão digital`
   }
 ];
 
