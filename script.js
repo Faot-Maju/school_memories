@@ -296,6 +296,28 @@ Conclui-se que para combatermos essa problemática o ministério da saúde e o m
 Em primeira análise, é possível perceber que muitas pessoas não conhecem a diversidade religiosa presente em nosso país. De acordo com o G1 cerca de 62% da população brasileira não possui acesso a informações de qualidade. Por causa dessa falta de conhecimento, a população acaba criando preconceitos e julgamentos sobre religião diferentes daquelas que praticam. Consequentemente, surgem atitudes como o desrespeito que dificultam a convivência entre pessoas de diferentes crenças.
 
 Além disso, o preconceito também contribui para o aumento da intolerância religiosa. Em diversos casos, pessoas são vítimas de ofensas e discriminações apenas por sua religião. Isso faz com que a liberdade de crença, garantida pela Constituição, nem sempre seja respeitada na prática`
+  },
+  {
+    titulo: "Cultura fitness: bem-estar ou busca por estética inatingível",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 160, 200],
+    texto: `Atualmente, a cultura 'fitness' vem ganhando cada vez mais espaço na sociedade brasileira, principalmente entre os jovens. De acordo com o filósofo Byung-Chul Han, a sociedade contemporânea é marcada pela busca constante por desempenho e produtividade. Nesse contexto, a cultura 'fitness' pode deixar de representar apenas uma forma de cuidar da saúde e se tornar uma busca exagerada pela aparência. Assim, a comparação social e a comercialização da imagem corporal configuram-se como fatores responsáveis por esse problema.
+
+A partir dessa perspectiva, é possível identificar que a comparação social contribui para a busca por uma estética inatingível. Por conta da exposição de diferentes corpos nas redes sociais, muitas pessoas passam a comparar sua aparência com a de influenciadores e celebridades. Como resultado, cria-se a ideia de que é necessário possuir determinado corpo para ser considerado bonito ou saudável, o que pode gerar insatisfação com a própria aparência e diminuir a valorização das características individuais.
+
+Ademais, a comercialização da imagem corporal também contribui para esse problema. Muitas empresas utilizam pessoas com corpos considerados ideais para divulgar produtos, academias e métodos de emagrecimento. Nesse cenário, essa publicidade pode transmitir a ideia de que a felicidade e a aceitação dependem da aparência física. Dessa forma, algumas pessoas podem passar a consumir determinados produtos com o objetivo de alcançar um padrão que nem sempre corresponde à realidade.
+
+Portanto, para combater essa problemática, o Ministério da Saúde e o Ministério da Educação devem promover campanhas de conscientização sobre os benefícios da atividade física para a saúde, além de incentivar debates nas escolas sobre os impactos da comparação corporal e da publicidade. Essas ações podem ser realizadas por meio de palestras e materiais informativos. Desse modo, busca-se que os jovens compreendam que a prática de exercícios deve estar relacionada ao bem-estar e à qualidade de vida, e não à necessidade de alcançar um padrão estético:`
+  },
+  {
+    titulo: "Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 160, 200, 200, 200],
+    texto: `A Constituição Federal de 1988 representa um importante marco para a garantia dos direitos dos povos indígenas no Brasil, pois reconhece seus costumes, línguas, crenças e os direitos sobre as terras que tradicionalmente ocupam. Entretanto, mesmo com esses avanços, a cidadania indígena ainda não é totalmente efetivada. Nesse contexto, a dificuldade de garantir os territórios e a invisibilidade social são alguns dos principais obstáculos enfrentados pelos povos originários.
+
+Em primeiro lugar, a dificuldade de garantir os territórios indígenas prejudica diretamente essas comunidades. Para os povos originários, á terra não representa apenas um espaço para morar, mas também está ligada à sua cultura, identidade e sobrevivência. Porém, invasões, conflitos e atividades ilegais ainda podem ameaçar essas áreas. Dessa forma, quando os direitos territoriais previstos na Constituição não são respeitados, existe uma diferença entre o que está garantido pela lei e a realidade de muitos indígenas.
+
+Além disso, a invisibilidade social também dificulta a garantia dos direitos indígenas. Muitas vezes, esses povos são vistos de forma estereotipada, como se pertencessem somente ao passado do Brasil. Essa visão ignora que os indígenas fazem parte da sociedade atual e possuem diferentes culturas, costumes e necessidades. Como consequência, a falta de conhecimento da população contribui para o preconceito e dificulta o reconhecimento dos povos originários como cidadãos que possuem direitos.
+
+Portanto, é necessário melhorar a situação dos povos indígenas no país. Para isso, o Ministério dos Povos Indígenas deve aumentar a fiscalização dos territórios indígenas, por meio de equipes especializadas e do monitoramento dessas áreas, com o objetivo de diminuir invasões e atividades ilegais. Além disso, o Ministério da Educação deve ampliar o ensino sobre a história e as culturas indígenas nas escolas, utilizando materiais que apresentem diferentes povos e suas realidades. Assim, será possível combater estereótipos, proteger os territórios e contribuir para a efetivação da cidadania indígena no Brasil`
   }
 ];
 
