@@ -22,14 +22,21 @@ const ETAPAS = [
   {
     id: "pre",
     titulo: "Jardim de Infância / Pré-escola",
-    periodo: "2013 – 2014",
-    escola: "Nome da escola",
+    periodo: "2011 – 2014",
+    escola: "Escola Divina Misericórdia e Ivone Pimentel",
     fotos: F("pre-escola", ["Eu no primeiro dia de aula", "Foto com a turma", "Festa / apresentação", "Foto com a professora"]),
-    resumo: "Conte aqui como foi o início: o primeiro dia, a professora, os amigos, as brincadeiras.",
-    causos: ["Escreva um causo marcante dessa fase.", "Outro causo engraçado."],
-    curiosidades: ["Uma curiosidade sobre você nessa época."],
-    desafios: ["Um desafio que você superou (ex.: a adaptação, a saudade de casa)."],
-    momentos: ["Um momento inesquecível (ex.: a primeira apresentação)."]
+    resumo: "O maternal foi ainda mais especial, pois tive a minha mãe como professora, podendo viver meus primeiros anos escolares pertinho dela. " +
+            "São lembranças da infância que, mesmo depois de tantos anos, continuam guardadas com muito carinho.",
+    causos: [
+      "Mas, quando fui para o Ivone Pimentel, começou aquela fase de choro e desapego: pela primeira vez, eu precisava passar o dia longe da minha mãe.",
+      "Construí minhas primeiras amizades. Uma delas foi com o André, que fazia aniversário no mesmo dia que eu! Juntos, tivemos até uma festa surpresa com o tema Minnie e Mickey."
+    ],
+    curiosidades: [
+      "Fiz o maternal na Escola Divina Misericórdia e o restante no Ivone Pimentel.",
+      "Foi nessa época que fiz balé."
+    ],
+    desafios: [],
+    momentos: []
   },
   {
     id: "f1",
@@ -47,7 +54,7 @@ const ETAPAS = [
     id: "f2",
     titulo: "Ensino Fundamental II (6º ao 9º ano)",
     periodo: "2020 – 2023",
-    escola: "Nome da escola",
+    escola: "Colégio Estadual Padre Claudio Morelli",
     fotos: F("fundamental-2", ["Foto de capa dessa fase", "Foto com a turma", "Projeto / feira de ciências", "Foto da formatura do 9º ano"]),
     resumo: "O Ensino Fundamental II foi uma das fases mais desafiadoras da minha trajetória. " +
             "Olhando para trás, vejo que, mesmo com as dificuldades, essa fase me trouxe pessoas e experiências " +
