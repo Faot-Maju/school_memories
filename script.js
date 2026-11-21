@@ -197,10 +197,8 @@ const PROGRAMA = {
 };
 
 /* ---------- PORTFÓLIO DE REDAÇÕES ----------
-   Cada redação tem: titulo, tema (tipo do texto), ano, data, nota (total, de 0 a 1000) e texto.
-   Se um dia você tiver a nota de cada competência do ENEM, troque `nota: 920` por
-   `notas: [C1, C2, C3, C4, C5]` (valores 0, 40, 80, 120, 160 ou 200) e os gráficos por
-   competência aparecem sozinhos (só aparecem quando TODAS as redações tiverem `notas`).
+   Cada redação tem: titulo, tema (tipo do texto), ano, data, notas e texto.
+   notas: [C1, C2, C3, C4, C5] — valores 0, 40, 80, 120, 160 ou 200 (o total é a soma, até 1000).
    Para separar parágrafos no texto, use uma linha em branco. */
 const NOTAS_SAO_EXEMPLO = false;
 
@@ -215,7 +213,7 @@ const COMPETENCIAS = [
 const REDACOES = [
   {
     titulo: "O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea",
-    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 920,
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 160, 200, 160, 200],
     texto: `A sociedade atual convive com múltiplas diferenças culturais, socias, de gênero e raciais. Essas diferenças se tornaram essenciais para uma convivência harmônica. Apesar de problemas como sexismo, intolerância e preconceito ainda são presentes. Nesse contexto o respeito e a empatia com as diferenças tornam-se necessários para o desenvolvimento social.
 
 O respeito é fundamental para combater preconceitos e violências, como exemplificado pela diferença salarial entre homens e mulheres no Brasil, que, segundo o G1, chegou a 21% em 2025. Esse cenário demonstra como visões preconceituosas ainda influenciam relações sociais e profissionais, reforçando a importância de promover a valorização da igualdade e do respeito às diferenças.
@@ -226,7 +224,7 @@ Conclui-se que para a superação das diferenças por meio do respeito e da empa
   },
   {
     titulo: "Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico",
-    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 160, 160],
     texto: `O filme Wall-E apresenta uma Terra devastada pelo consumo excessivo e pela degradação ambiental. Atualmente, o Brasil sofre impactos sociais e econômicos devido às mudanças no ciclo hidrológico. Nesse contexto, identifica-se que o problema se sustenta pelos ideais capitalistas extremos e, sobretudo, pelas ações das empresas agropecuárias que desmatam grandes áreas.
 
 Na sociedade moderna, o egoísmo humano influencia brutalmente as mudanças climáticas. Albert Einstein citou que "eu não sei como será a Terceira Guerra Mundial, mas sei que a quarta será com paus e pedras". Baseado nessa citação, compreende-se que o desejo de possuir imoderadamente influencia os ciclos hidrológicos, quando empresas exploram os recursos naturais para gerar riqueza sem observar os impactos da devastação e os efeitos sociais produzidos.
@@ -237,7 +235,7 @@ Conclui-se, portanto, que cabe ao governo federal, à polícia ambiental e ao Mi
   },
   {
     titulo: "A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras",
-    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 160, 160],
     texto: `O conceito de Indústria Cultural explica como a mídia influencia comportamentos e impõe padrões à sociedade. Atualmente, o Brasil enfrenta o aumento do uso de canetas emagrecedoras de forma indiscriminada, principalmente entre jovens que buscam resultados rápidos. Nesse contexto, identifica-se que o problema se sustenta pela retomada do padrão de magreza extrema e, sobretudo, pela influência das redes sociais. Na sociedade moderna, a busca por aceitação influencia diretamente nessas escolhas.
 
 Nesse sentido, muitas pessoas utilizam essas substâncias sem orientação médica, apenas com o objetivo estético. Esses medicamentos foram desenvolvidos para tratar doenças, mas são usados de forma inadequada, o que pode causar efeitos colaterais como mal-estar e alterações no organismo. Quando indivíduos priorizam a aparência acima da saúde, acabam colocando o próprio corpo em risco.
@@ -248,7 +246,7 @@ Conclui-se, portanto, que cabe ao governo federal e aos órgãos de saúde inten
   },
   {
     titulo: "O uso da Inteligência Artificial e as deepfakes: o que é real e o que é fictício na vida online?",
-    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", nota: 800,
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 160, 160],
     texto: `O filme “Matrix” apresenta uma realidade em que as pessoas não conseguem distinguir o que é real do que é simulado. Fora da ficção, esse cenário tem se tornado cada vez mais próximo com o avanço da Inteligência Artificial e o surgimento das deepfakes. No Brasil, o uso dessas tecnologias gera preocupação, já que a manipulação de imagens, vídeos e áudios pode comprometer a confiança nas informações. Nesse contexto, percebe-se que o problema está ligado tanto ao avanço tecnológico quanto à falta de preparo da população para lidar com esse tipo de conteúdo.
 
 Atualmente, a circulação de conteúdos falsos influencia como as pessoas enxergam a realidade. Muitas vezes, vídeos e imagens manipulados parecem verdadeiros, dificultando a identificação do que é real. Com isso, informações falsas podem se espalhar rapidamente, prejudicando a imagem de pessoas e confundindo a população. Além disso, com o fácil acesso a ferramentas digitais, qualquer pessoa pode criar conteúdos manipulados e compartilhá-los nas redes sociais.
