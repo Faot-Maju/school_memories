@@ -276,6 +276,26 @@ Diante desse cenário, é possível identificar que grande parte da população 
 Além disso, consegue-se compreender que a falta de infraestrutura também contribui para a exclusão digital. Grande parte das regiões rurais e afastadas dos centros urbanos não possui acesso adequado à internet. Ainda nesse contexto, a precariedade dos serviços de conexão impede que muitas pessoas utilizem recursos essenciais, como plataformas educacionais, serviços públicos digitais e oportunidades de emprego.
 
 Conclui-se que, para combater essa problemática, o Ministério das Comunicações e o Ministério da Educação devem ampliar os investimentos em infraestrutura tecnológica e expandir o acesso à internet em todo o território nacional. Assim, é necessário promover programas de capacitação digital nas escolas e comunidades. Assim, busca-se garantir que a população brasileira esteja mais preparada e informada para participar da sociedade contemporânea, reduzindo os impactos da exclusão digital`
+  },
+  {
+    titulo: "Da diversão ao endividamento: efeitos socioeconômicos das bets na vida de jovens brasileiros",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 120, 160],
+    texto: `Atualmente, plataformas de apostas vem ganhando espaço entre os jovens brasileiros, conforme o jornal UOL 63% da população já apostou ou aposta. Nesse sentido o que era visto inicialmente como diversão se torna endividamento. Dessa forma, a falta de educação financeira e o vício configuram -se como os principais fatores responsáveis por esse problema.
+
+Sob essa perspectiva é possível identificar que grande parte da juventude brasileira sofre com um déficit de educação financeira. Em razão desse déficit muitos apostam impulsivamente, levando a complicações socioeconômicas, como, por exemplo, o abandono da faculdade devido atraso das parcelas.
+
+Em segunda análise consegue-se compreender que os problemas socioeconômicos estão diretamente ligados ao vício em apostas. Grande parte das casas de apostas fazem publicidade com influenciadores, um exemplo é a influenciadora Virgínia Fonseca que incentivava seus seguidores a apostar. Ainda nesse contexto, a exposição constante dessa publicidade contribui para a normalização das bets entre os jovens brasileiros que desenvolvem um ciclo repetitivo de apostas e prejuízos.
+
+Conclui-se que para combatermos essa problemática o ministério da saúde e o ministério da educação devem ampliar as aulas de educação financeira, além de promover campanhas que alertam sobre os perigos do vício em apostas. Logo seria necessário a ampliação da grade curricular. Assim busca-se que os jovens estejam mais preparados e informados para lidarem com os problemas socioeconômicos, reduzindo a vulnerabilidade a esse tipo de dependência`
+  },
+  {
+    titulo: "Caminhos para combater a intolerância religiosa no Brasil",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 120, 80, 120, 40],
+    texto: `De acordo com a Constituição Federal de 1988 á liberdade de crença é assegurada a todos os cidadãos brasileiros. Entretanto, na prática, muitas pessoas sofrem preconceito e discriminação por conta de sua religião. Dessa forma, a falta de informação e o preconceito são fatores que contribuem para a intolerância religiosa.
+
+Em primeira análise, é possível perceber que muitas pessoas não conhecem a diversidade religiosa presente em nosso país. De acordo com o G1 cerca de 62% da população brasileira não possui acesso a informações de qualidade. Por causa dessa falta de conhecimento, a população acaba criando preconceitos e julgamentos sobre religião diferentes daquelas que praticam. Consequentemente, surgem atitudes como o desrespeito que dificultam a convivência entre pessoas de diferentes crenças.
+
+Além disso, o preconceito também contribui para o aumento da intolerância religiosa. Em diversos casos, pessoas são vítimas de ofensas e discriminações apenas por sua religião. Isso faz com que a liberdade de crença, garantida pela Constituição, nem sempre seja respeitada na prática`
   }
 ];
 
