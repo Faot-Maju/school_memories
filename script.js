@@ -150,22 +150,27 @@ const ETAPAS = [
    Troque nome, local e os textos de cada mês pela sua experiência real. */
 const PROGRAMA = {
   id: "programa",
-  titulo: "Nome do Programa",
-  periodo: "5 meses · 2º ano do Ensino Médio (2025)",
-  local: "Onde aconteceu / instituição responsável",
-  resumo: "Conte aqui o que foi o programa, como você entrou, por que escolheu participar " +
-          "e o que ele significou para você.",
+  titulo: "Ganhando o Mundo",
+  periodo: "5 meses · 2º ano do Ensino Médio (2025 – 2026)",
+  local: "Inglaterra · Christchurch e Oxford",
+  resumo: "O Ganhando o Mundo foi o meu programa de intercâmbio na Inglaterra, onde fiquei em duas cidades: Christchurch e Oxford. " +
+          "Consegui a vaga por conta das minhas notas durante os anos anteriores.",
   meses: [
-    { titulo: "Mês 1 · A chegada",         texto: "O que aconteceu no primeiro mês: expectativas, adaptação, primeiras descobertas." },
-    { titulo: "Mês 2 · Os primeiros passos", texto: "Rotina, desafios iniciais e as primeiras conquistas." },
-    { titulo: "Mês 3 · A virada",          texto: "O ponto mais intenso do programa: um desafio ou uma grande descoberta." },
-    { titulo: "Mês 4 · Colocando em prática", texto: "Projetos, atividades e momentos marcantes." },
-    { titulo: "Mês 5 · O encerramento",    texto: "Como terminou, as despedidas e o que ficou de aprendizado." }
+    { titulo: "Mês 1 · A chegada",
+      texto: "O primeiro mês foi uma mistura de encantamento, descobertas e adaptação. Logo de início, comecei a experimentar uma liberdade e independência que não tinha no Brasil, aprendendo a me locomover sozinha e a pegar ônibus para diferentes lugares. Também comecei a me acostumar com o jeito de ser dos britânicos, seus costumes e sua cultura. Experimentei novas comidas, provei o tradicional Roast Dinner e vivi o clássico chá da tarde britânico. Na escola, usar uniforme com saia, gravata, camisa social, jumper e sapatilhas fazia tudo parecer ainda mais especial. Era como estar dentro de um filme! Também comecei a conhecer as lojas inglesas, especialmente a Primark, que logo se tornou um dos nossos lugares favoritos." },
+    { titulo: "Mês 2 · Os primeiros passos",
+      texto: "O segundo mês foi quando comecei a aproveitar ainda mais a experiência e a sair com meus amigos. Juntos, conhecemos lugares como Lymington, Poole, Bournemouth, Southampton e Oxford. Foi também quando nasceram algumas das nossas tradições: eu e a Pâmela criamos o costume de tomar sorvete enquanto passeávamos pelas marinas, além das idas ao McDonald's para comer batata frita com sorvete e ao Subway para aproveitar o famoso combo de 5 libras, sempre escolhendo os melhores cookies. A Primark também estava entre nossos passeios favoritos, assim como as tradicionais lojas de discos inglesas, onde adorávamos entrar e conhecer um pouco mais da cultura musical britânica. Também ficaram marcadas as noites assistindo a filmes, as jantas que muitas vezes eram apenas macarrão e os momentos em que fazíamos as tarefas juntas." },
+    { titulo: "Mês 3 · A virada",
+      texto: "O terceiro mês foi quando percebi o quanto aquelas pessoas e aqueles lugares já faziam parte da minha vida. A rotina já parecia familiar, e os passeios à Primark e às lojas de discos continuavam sendo parte dos nossos programas favoritos. Comecei a entender que o intercâmbio não era feito apenas pelos grandes acontecimentos ou pelos lugares que conheci, mas principalmente pelas pequenas coisas do cotidiano, pelas amizades, pelas conversas e pelas tradições que construímos juntas." },
+    { titulo: "Mês 4 · Colocando em prática",
+      texto: "O quarto mês trouxe uma das experiências mais especiais de todo o intercâmbio: eu, Pâmela, Naty e Milena nos mudamos para Oxford! Foi uma mudança enorme, pois começamos a viver em uma cidade turística, cheia de história e lugares incríveis. E o melhor de tudo: nós quatro dividíamos o mesmo quarto, que carinhosamente apelidamos de \"República das Tchecas\". Entre passeios pela cidade, visitas às lojas, nossas paradas na Primark e descobertas pelas tradicionais lojas de discos, construímos lembranças inesquecíveis. Dividir o mesmo espaço, a rotina, as conversas, as risadas e até os pequenos perrengues tornou tudo ainda mais especial. Sem dúvidas, morar com elas foi uma das melhores experiências do intercâmbio." },
+    { titulo: "Mês 5 · O encerramento",
+      texto: "O quinto mês foi marcado por momentos que jamais vou esquecer. Nós quatro fomos juntas para Londres, onde conhecemos diversos pontos turísticos, andamos de metrô pela cidade e atravessamos a famosa Abbey Road, eternizada pelos Beatles. Também tivemos a alegria de ver neve pela primeira vez juntas! Entre os passeios, ainda encontramos tempo para visitar lojas, incluindo a nossa querida Primark, e conhecer as famosas lojas de discos inglesas. Passamos o Natal e o Ano-Novo juntas, compartilhando datas especiais longe de casa, mas cercadas por pessoas que se tornaram nossa família durante o intercâmbio. Hoje, sinto muita falta delas e de tudo o que vivemos juntas. Se pudesse, reviveria cada passeio, cada ida à Primark, cada conversa e cada momento. No fim, percebi que uma das maiores riquezas que o Ganhando o Mundo me trouxe não foram apenas os lugares que conheci, mas as pessoas que tive a sorte de encontrar pelo caminho." }
   ],
   aprendizados: [
-    "Primeiro aprendizado que o programa te deu.",
-    "Segundo aprendizado (ex.: autonomia, trabalho em equipe, um novo idioma).",
-    "Como o programa mudou sua forma de ver o futuro."
+    "Uma liberdade e independência que eu não tinha no Brasil, aprendendo a me locomover sozinha.",
+    "O intercâmbio não é feito apenas pelos grandes acontecimentos ou pelos lugares que conheci, mas pelas pequenas coisas do cotidiano, pelas amizades, pelas conversas e pelas tradições que construímos juntas.",
+    "Uma das maiores riquezas que o Ganhando o Mundo me trouxe foram as pessoas que tive a sorte de encontrar pelo caminho."
   ],
   fotos: F("programa", [
     "Foto de abertura do programa", "Foto com os colegas do programa", "Atividade marcante",
