@@ -42,13 +42,27 @@ const ETAPAS = [
     id: "f1",
     titulo: "Ensino Fundamental I (1º ao 5º ano)",
     periodo: "2015 – 2019",
-    escola: "Nome da escola",
+    escola: "Escola Municipal Jornalista Cláudio Abramo",
     fotos: F("fundamental-1", ["Foto de capa dessa fase", "Foto com amigos", "Evento / passeio", "Foto da formatura do 5º ano"]),
-    resumo: "Aprender a ler e escrever, as primeiras provas, os amigos de infância…",
-    causos: ["Causo marcante."],
-    curiosidades: ["Curiosidade."],
-    desafios: ["Desafio superado."],
-    momentos: ["Momento inesquecível."]
+    resumo: "O Ensino Fundamental I foi uma fase cheia de descobertas, aprendizados e histórias que ainda me fazem sorrir. " +
+            "Foi uma fase em que cresci, aprendi, fiz amizades e vivi momentos que, hoje, percebo que foram muito maiores do que pareciam na época. " +
+            "São lembranças que sempre terão um lugar especial na minha história.",
+    causos: [
+      "Não poderia faltar minha primeira encrenca com a diretoria: tudo porque o Jorge me chamou de bruxa e eu resolvi torcer a orelha dele!",
+      "Foi a época das disputas por notas com o Enzo, das idas à informática para jogar Friv e das visitas semanais à biblioteca, onde sempre pegava livros emprestados e também assistia aos filmes que passavam por lá."
+    ],
+    curiosidades: [
+      "Participei da Guarda Mirim, aprendi a pular corda e andar de perna de pau.",
+      "Guardo com carinho as lembranças da Tânia e da Rosa, nossas diretoras, que eram muito queridas."
+    ],
+    desafios: [
+      "Comecei a aprender a ler e escrever e enfrentei minhas primeiras provas.",
+      "Comecei a entender melhor meus sentimentos e a aprender a lidar com eles."
+    ],
+    momentos: [
+      "Conheci meu primeiro trio de amigas, a Mariana e a Haiane.",
+      "Realizei meus primeiros passeios tão esperados."
+    ]
   },
   {
     id: "f2",
