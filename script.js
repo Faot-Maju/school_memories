@@ -6,8 +6,9 @@
 const NOME_ALUNO = "Maria Julia Faot";
 
 const MENSAGEM_FINAL =
-  "Agradeço, primeiramente, aos meus pais, por nunca medirem esforços para me proporcionar uma boa educação e por apoiarem cada passo da minha caminhada." +
-  "Ao meu pai, por despertar em mim o amor pela leitura desde pequena, por meio dos gibis, e à minha mãe, que, além de ser minha maior incentivadora, também foi minha professora.Aos meus professores, minha eterna gratidão por cada ensinamento, incentivo e por deixarem um pouquinho de si na pessoa que me tornei.";
+  "Agradeço, primeiramente, aos meus pais, por nunca medirem esforços para me proporcionar uma boa educação e por apoiarem cada passo da minha caminhada. " +
+  "Ao meu pai, por despertar em mim o amor pela leitura desde pequena, por meio dos gibis, e à minha mãe, que, além de ser minha maior incentivadora, também foi minha professora. " +
+  "Aos meus professores, minha eterna gratidão por cada ensinamento, incentivo e por deixarem um pouquinho de si na pessoa que me tornei.";
 
 /* Atalho para criar a lista de fotos de uma etapa.
    F("pasta", ["legenda da capa", "legenda 2", ...]) usa os arquivos
@@ -48,11 +49,21 @@ const ETAPAS = [
     periodo: "2020 – 2023",
     escola: "Nome da escola",
     fotos: F("fundamental-2", ["Foto de capa dessa fase", "Foto com a turma", "Projeto / feira de ciências", "Foto da formatura do 9º ano"]),
-    resumo: "Mais matérias, mais professores, a chegada da adolescência.",
-    causos: ["Causo marcante."],
-    curiosidades: ["Curiosidade."],
-    desafios: ["Desafio superado."],
-    momentos: ["Momento inesquecível."]
+    resumo: "O Ensino Fundamental II foi uma das fases mais desafiadoras da minha trajetória. " +
+            "Olhando para trás, vejo que, mesmo com as dificuldades, essa fase me trouxe pessoas e experiências " +
+            "que contribuíram muito para quem sou hoje.",
+    causos: [],
+    curiosidades: [],
+    desafios: [
+      "No início, foi difícil encontrar meu lugar, já que muitos colegas já tinham suas amizades construídas desde o Ensino Fundamental I. Era estranho tentar me encaixar em meio a relações que já existiam.",
+      "Depois veio a pandemia, que transformou completamente nossa rotina, trazendo as aulas on-line e a saudade da escola e dos amigos."
+    ],
+    momentos: [
+      "No final do 7º ano, com a volta das aulas presenciais, conheci a Maria, a Mary e a Monyk, amizades que se tornaram muito especiais.",
+      "Comecei a sair pela primeira vez sem meus pais, apenas com meus colegas do colégio, vivendo novas experiências e descobrindo um pouco mais da minha independência.",
+      "No 8º ano, entrei para a sala de Altas Habilidades, onde participei de novos projetos. Um deles foi o Morelli Cast, com o qual fomos classificados para a FENAHS, uma conquista muito especial.",
+      "No 9º ano, entrei para a robótica e participei do meu primeiro campeonato, a FLL (FIRST LEGO League), dando início a uma trajetória cheia de desafios, aprendizados, amizades e oportunidades que marcaram minha vida."
+    ]
   },
   {
     id: "em1",
