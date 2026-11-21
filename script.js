@@ -3,11 +3,11 @@
    Todo o conteúdo do site vem destes dados. Não precisa mexer no HTML.
    ========================================================= */
 
-const NOME_ALUNO = "Seu Nome Aqui";
+const NOME_ALUNO = "Maria Julia Faot";
 
 const MENSAGEM_FINAL =
-  "Escreva aqui sua mensagem final: agradeça aos professores, colegas, amigos e família " +
-  "que fizeram parte dessa caminhada.";
+  "Agradeço, primeiramente, aos meus pais, por nunca medirem esforços para me proporcionar uma boa educação e por apoiarem cada passo da minha caminhada." +
+  "Ao meu pai, por despertar em mim o amor pela leitura desde pequena, por meio dos gibis, e à minha mãe, que, além de ser minha maior incentivadora, também foi minha professora.Aos meus professores, minha eterna gratidão por cada ensinamento, incentivo e por deixarem um pouquinho de si na pessoa que me tornei.";
 
 /* Atalho para criar a lista de fotos de uma etapa.
    F("pasta", ["legenda da capa", "legenda 2", ...]) usa os arquivos
