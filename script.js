@@ -102,6 +102,7 @@ const ETAPAS = [
     ],
     desafios: [],
     momentos: [
+      "Fui mentora da FLL Explore.",
       "Uma das maiores surpresas e realizações daquele ano foi descobrir que faria um intercâmbio na Inglaterra!"
     ]
   },
@@ -135,13 +136,30 @@ const ETAPAS = [
     id: "em3",
     titulo: "3º ano — a reta final",
     periodo: "2026",
-    escola: "Nome da escola",
+    escola: "Colégio Estadual Padre Claudio Morelli",
     fotos: F("3-ano", ["Foto de capa do 3º ano", "Foto com a turma", "Simulado / Enem", "Último dia de aula"]),
-    resumo: "Vestibular, Enem, despedidas e a sensação de dever cumprido.",
-    causos: ["Causo marcante."],
-    curiosidades: ["Curiosidade."],
-    desafios: ["Desafio superado."],
-    momentos: ["Momento inesquecível."]
+    resumo: "O 3º ano foi a reta final da minha vida escolar. Comecei a fase de estudos para o vestibular, fiz muitos simulados " +
+            "e aproveitei muito o ano com os meus amigos.",
+    causos: [
+      "Criamos o truno.",
+      "Realizamos a nossa última apresentação juntos."
+    ],
+    curiosidades: [
+      "Comecei a dar aula de inglês.",
+      "Aproveitei muito o 3º ano com os meus amigos."
+    ],
+    desafios: [
+      "Comecei a fase de estudos para o vestibular e fiz muitos simulados.",
+      "Comecei a estudar para tirar o TOEFL."
+    ],
+    momentos: [
+      "Fui para as duas seasons da FRC (FIRST Robotics Competition), em São Paulo, com a robótica.",
+      "Organizei o evento da FLL Explore deste ano.",
+      "Organizei o primeiro evento de robótica da SEED-PR.",
+      "Apresentei o Impact totalmente em inglês.",
+      "Passei para o Nacional da OBR (Olimpíada Brasileira de Robótica), em João Pessoa (PB).",
+      "Fiz os vestibulares e passei em Engenharia Mecatrônica na PUC-PR."
+    ]
   }
 ];
 
