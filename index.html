@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,16 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minha Jornada Escolar | Formatura 2026</title>
   <meta name="description" content="Site pessoal de formatura do Ensino Médio: memórias escolares e portfólio de redações.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+
+  <!-- CSS CORRIGIDO -->
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-  <!-- ===== CABEÇALHO / NAVEGAÇÃO ===== -->
+  <!-- CABEÇALHO / NAVEGAÇÃO -->
   <header class="topbar" id="topbar">
     <a href="#inicio" class="brand">✦ Formatura 2026</a>
+
     <nav aria-label="Navegação principal">
       <ul class="nav-links" id="navLinks">
         <li><a href="#inicio">Início</a></li>
@@ -23,6 +30,7 @@
         <li><a href="#despedida">Despedida</a></li>
       </ul>
     </nav>
+
     <div class="topbar-actions">
       <button class="icon-btn" id="themeToggle" aria-label="Alternar tema claro/escuro">🌙</button>
       <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
@@ -30,15 +38,19 @@
   </header>
 
   <main>
-    <!-- ===== HERO ===== -->
+
+    <!-- HERO -->
     <section class="hero" id="inicio">
       <div class="hero-inner">
         <p class="eyebrow">Ensino Médio · Turma de 2026</p>
+
         <h1>Olá, eu sou <span class="accent" id="nomeAluno">Seu Nome Aqui</span></h1>
+
         <p class="hero-sub">
           Uma viagem pela minha vida escolar: da primeira mochila na pré-escola
           até o último dia do 3º ano.
         </p>
+
         <div class="hero-cta">
           <a href="#memorias" class="btn btn-primary">Ver minhas memórias</a>
           <a href="#redacoes" class="btn btn-ghost">Ler minhas redações</a>
@@ -53,13 +65,16 @@
       </div>
     </section>
 
-    <!-- ===== MEMÓRIAS ESCOLARES ===== -->
+    <!-- MEMÓRIAS ESCOLARES -->
     <section class="section" id="memorias">
       <div class="container">
         <header class="section-head">
           <p class="eyebrow">Tema 1</p>
           <h2>Memórias Escolares</h2>
-          <p class="lead">Uma linha do tempo da pré-escola ao 3º ano. Clique em uma etapa para abrir a história completa.</p>
+          <p class="lead">
+            Uma linha do tempo da pré-escola ao 3º ano.
+            Clique em uma etapa para abrir a história completa.
+          </p>
         </header>
 
         <div class="timeline-nav" id="timelineNav" role="tablist" aria-label="Etapas escolares"></div>
@@ -67,18 +82,23 @@
       </div>
     </section>
 
-    <!-- ===== PORTFÓLIO DE REDAÇÕES ===== -->
+    <!-- PORTFÓLIO DE REDAÇÕES -->
     <section class="section section-alt" id="redacoes">
       <div class="container">
         <header class="section-head">
           <p class="eyebrow">Tema 2</p>
           <h2>Portfólio de Redações</h2>
-          <p class="lead">As 17 produções que escrevi nas aulas de Língua Portuguesa e Redação. Clique em um card para ler.</p>
+          <p class="lead">
+            As 17 produções que escrevi nas aulas de Língua Portuguesa e Redação.
+            Clique em um card para ler.
+          </p>
         </header>
 
         <div class="toolbar">
           <input type="search" id="busca" placeholder="Buscar por título ou tema…" aria-label="Buscar redações">
+
           <div class="chips" id="filtros" role="group" aria-label="Filtrar por ano"></div>
+
           <div class="view-switch" role="group" aria-label="Modo de leitura">
             <button class="chip active" data-view="cards">Cards</button>
             <button class="chip" data-view="sanfona">Sanfona</button>
@@ -86,16 +106,20 @@
         </div>
 
         <p class="result-count" id="contador" aria-live="polite"></p>
+
         <div class="cards" id="cards"></div>
         <div class="accordion hidden" id="sanfona"></div>
 
-        <!-- Gráficos por competência do ENEM -->
+        <!-- GRÁFICOS ENEM -->
         <div class="enem" id="enem">
           <header class="section-head enem-head">
             <p class="eyebrow">Desempenho</p>
             <h3>Evolução por competência do ENEM</h3>
-            <p class="lead">Cada gráfico mostra a nota (0 a 200) de uma competência ao longo das 17 redações.</p>
+            <p class="lead">
+              Cada gráfico mostra a nota (0 a 200) de uma competência ao longo das 17 redações.
+            </p>
           </header>
+
           <div class="kpis" id="enemResumo"></div>
           <div class="enem-grid" id="enemGraficos"></div>
           <p class="enem-note" id="enemNota"></p>
@@ -103,35 +127,44 @@
       </div>
     </section>
 
-    <!-- ===== DESPEDIDA ===== -->
+    <!-- DESPEDIDA -->
     <section class="section" id="despedida">
       <div class="container narrow">
         <header class="section-head">
           <p class="eyebrow">Encerramento</p>
           <h2>Obrigado por essa caminhada</h2>
         </header>
+
         <blockquote class="farewell" id="mensagemFinal">
           Escreva aqui sua mensagem de agradecimento aos professores, colegas e familiares.
         </blockquote>
-        <p class="center"><button class="btn btn-primary" id="confeteBtn">🎓 Comemorar!</button></p>
+
+        <p class="center">
+          <button class="btn btn-primary" id="confeteBtn">🎓 Comemorar!</button>
+        </p>
       </div>
     </section>
+
   </main>
 
+  <!-- RODAPÉ -->
   <footer class="footer">
     <p>Feito com HTML, CSS e JavaScript · Turma 2026</p>
     <a href="#inicio">Voltar ao topo ↑</a>
   </footer>
 
-  <!-- ===== MODAL DE REDAÇÃO ===== -->
+  <!-- MODAL DE REDAÇÃO -->
   <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo" hidden>
     <div class="modal-backdrop" data-close></div>
+
     <article class="modal-card">
       <button class="icon-btn modal-close" data-close aria-label="Fechar">✕</button>
+
       <p class="modal-meta" id="modalMeta"></p>
       <h3 id="modalTitulo"></h3>
       <div class="pills" id="modalNotas"></div>
       <div class="modal-body" id="modalTexto"></div>
+
       <div class="modal-nav">
         <button class="btn btn-ghost" id="prevBtn">← Anterior</button>
         <span id="modalPos"></span>
@@ -140,7 +173,7 @@
     </article>
   </div>
 
-  <!-- ===== LIGHTBOX DE FOTOS ===== -->
+  <!-- LIGHTBOX DE FOTOS -->
   <div class="lightbox" id="lightbox" hidden>
     <button class="icon-btn modal-close" id="lbClose" aria-label="Fechar foto">✕</button>
     <img id="lbImg" alt="">
@@ -148,6 +181,9 @@
   </div>
 
   <canvas id="confete" aria-hidden="true"></canvas>
-  <script src="js/script.js"></script>
+
+  <!-- JAVASCRIPT CORRIGIDO -->
+  <script src="./script.js"></script>
+
 </body>
 </html>
