@@ -90,13 +90,22 @@ const ETAPAS = [
     id: "em1",
     titulo: "1º ano do Ensino Médio",
     periodo: "2024",
-    escola: "Nome da escola",
+    escola: "Colégio Estadual Padre Claudio Morelli",
     fotos: F("1-ano", ["Foto de capa do 1º ano", "Foto com a turma nova", "Evento da escola", "Momento descontraído"]),
-    resumo: "Nova fase, novos colegas e a primeira vez pensando no futuro.",
-    causos: ["Causo marcante."],
-    curiosidades: ["Curiosidade."],
-    desafios: ["Desafio superado."],
-    momentos: ["Momento inesquecível."]
+    resumo: "O 1º ano do Ensino Médio foi, sem dúvidas, uma das fases mais especiais da minha vida escolar e o ano que guardo com mais carinho. " +
+            "Foi quando conheci a maioria dos meus amigos e tive aquela que considero minha melhor turma: o 1º A.",
+    causos: [
+      "Foi a época dos trabalhos mais difíceis do Soppa, da criação do Bago do Agro e do nosso divertido Torta na Cara, momentos que renderam muitas risadas e lembranças."
+    ],
+    curiosidades: [
+      "Entre eles, conheci a Fravinha, o Henrique, o Gabriel, o Saulo e o Murilo, enquanto a Maria continuava ao meu lado em mais uma etapa dessa história."
+    ],
+    desafios: [
+      "Na robótica, conquistei a classificação para o Nacional, em Brasília."
+    ],
+    momentos: [
+      "Uma das maiores surpresas e realizações daquele ano foi descobrir que faria um intercâmbio na Inglaterra!"
+    ]
   },
   {
     id: "em2",
