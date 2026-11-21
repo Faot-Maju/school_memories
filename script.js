@@ -100,9 +100,7 @@ const ETAPAS = [
     curiosidades: [
       "Entre eles, conheci a Fravinha, o Henrique, o Gabriel, o Saulo e o Murilo, enquanto a Maria continuava ao meu lado em mais uma etapa dessa história."
     ],
-    desafios: [
-      "Na robótica, conquistei a classificação para o Nacional, em Brasília."
-    ],
+    desafios: [],
     momentos: [
       "Uma das maiores surpresas e realizações daquele ano foi descobrir que faria um intercâmbio na Inglaterra!"
     ]
@@ -111,13 +109,27 @@ const ETAPAS = [
     id: "em2",
     titulo: "2º ano do Ensino Médio",
     periodo: "2025",
-    escola: "Nome da escola",
+    escola: "Colégio Estadual Padre Claudio Morelli e Highcliffe School (Inglaterra)",
     fotos: F("2-ano", ["Foto de capa do 2º ano", "Foto com os amigos", "Projeto / trabalho em grupo", "Momento descontraído"]),
-    resumo: "O ano das descobertas, dos projetos e das amizades mais fortes.",
-    causos: ["Causo marcante."],
-    curiosidades: ["Curiosidade."],
-    desafios: ["Desafio superado."],
-    momentos: ["Momento inesquecível."]
+    resumo: "No 2º ano, estudei até agosto no Brasil, no Morelli. Depois disso, entrei na Highcliffe School, na Inglaterra. " +
+            "Foi um ano de muitas descobertas, desafios e amizades.",
+    causos: [
+      "Durante os meses no Brasil, houve o fortalecimento da relação entre os nuggets (Maju, Murilo, Tessari e Henrique).",
+      "Fui para Brasília no Nacional da FLL, em 2025."
+    ],
+    curiosidades: [
+      "Estudei até agosto no Brasil.",
+      "Depois de agosto, entrei na Highcliffe School, na Inglaterra.",
+      "Conheci a Pâmela, minha host sister."
+    ],
+    desafios: [
+      "Na Highcliffe School, tive alguns desafios com a língua, mas aprendi muito bem.",
+      "Foi um momento cheio de desafios, principalmente por estar longe dos meus pais, tendo que ser uma adulta antecipadamente."
+    ],
+    momentos: [
+      "Fiz alguns amigos na Inglaterra: a Pâmela, minha host sister, a Trinnity e o Henry.",
+      "Não me arrependo nem um pouco: foi uma das melhores sensações da minha vida, ficando atrás só do reencontro com os meus pais e as pessoas que eu mais amo."
+    ]
   },
   {
     id: "em3",
