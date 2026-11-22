@@ -24,7 +24,7 @@ const ETAPAS = [
     titulo: "Jardim de Infância / Pré-escola",
     periodo: "2011 – 2014",
     escola: "Escola Divina Misericórdia e Ivone Pimentel",
-    fotos: F("pre-escola-1.jpg", ["Eu no primeiro dia de aula", "Foto com a turma", "Festa / apresentação", "Foto com a professora"]),
+    fotos: F("pre-escola", ["Eu no primeiro dia de aula", "Foto com a turma", "Festa / apresentação", "Foto com a professora"]),
     resumo: "O maternal foi ainda mais especial, pois tive a minha mãe como professora, podendo viver meus primeiros anos escolares pertinho dela. " +
             "São lembranças da infância que, mesmo depois de tantos anos, continuam guardadas com muito carinho.",
     causos: [
