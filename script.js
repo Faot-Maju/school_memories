@@ -24,7 +24,7 @@ const ETAPAS = [
     titulo: "Jardim de Infância / Pré-escola",
     periodo: "2011 – 2014",
     escola: "Escola Divina Misericórdia e Ivone Pimentel",
-    fotos: F("pre-escola", ["Eu no primeiro dia de aula", "Foto com a turma", "Festa / apresentação", "Foto com a professora"]),
+    fotos: F("pre-escola", ["Eu no primeiro dia de aula", "Foto com os coleguinhas", "Festa da Minnei", "Foto com a professora/ Mamis linda"]),
     resumo: "O maternal foi ainda mais especial, pois tive a minha mãe como professora, podendo viver meus primeiros anos escolares pertinho dela. " +
             "São lembranças da infância que, mesmo depois de tantos anos, continuam guardadas com muito carinho.",
     causos: [
@@ -43,7 +43,7 @@ const ETAPAS = [
     titulo: "Ensino Fundamental I (1º ao 5º ano)",
     periodo: "2015 – 2019",
     escola: "Escola Municipal Jornalista Cláudio Abramo",
-    fotos: F("fundamental-1", ["Foto capa dessa fase", "Foto com amigos", "Evento / passeio", "Foto da formatura do 5º ano"]),
+    fotos: F("fundamental-1", ["Apresentação", "Foto com as amigas", "Primeiro dia", "Foto com a diretora"]),
     resumo: "O Ensino Fundamental I foi uma fase cheia de descobertas, aprendizados e histórias que ainda me fazem sorrir. " +
             "Foi uma fase em que cresci, aprendi, fiz amizades e vivi momentos que, hoje, percebo que foram muito maiores do que pareciam na época. " +
             "São lembranças que sempre terão um lugar especial na minha história.",
@@ -69,7 +69,7 @@ const ETAPAS = [
     titulo: "Ensino Fundamental II (6º ao 9º ano)",
     periodo: "2020 – 2023",
     escola: "Colégio Estadual Padre Claudio Morelli",
-    fotos: F("fundamental-2", ["Foto de capa dessa fase", "Foto com a turma", "Projeto / feira de ciências", "Foto da formatura do 9º ano"]),
+    fotos: F("fundamental-2", ["Saída com a Mary e a Maria", "Foto com a turma", "Fll", "Turma do 8º ano"]),
     resumo: "O Ensino Fundamental II foi uma das fases mais desafiadoras da minha trajetória. " +
             "Olhando para trás, vejo que, mesmo com as dificuldades, essa fase me trouxe pessoas e experiências " +
             "que contribuíram muito para quem sou hoje.",
@@ -91,7 +91,7 @@ const ETAPAS = [
     titulo: "1º ano do Ensino Médio",
     periodo: "2024",
     escola: "Colégio Estadual Padre Claudio Morelli",
-    fotos: F("1-ano", ["Foto de capa do 1º ano", "Foto com a turma nova", "Evento da escola", "Momento descontraído"]),
+    fotos: F("1-ano", ["1º ano", "Mentoria da Explore", "Ganhando o mundo", "Torta na cara"]),
     resumo: "O 1º ano do Ensino Médio foi, sem dúvidas, uma das fases mais especiais da minha vida escolar e o ano que guardo com mais carinho. " +
             "Foi quando conheci a maioria dos meus amigos e tive aquela que considero minha melhor turma: o 1º A.",
     causos: [
