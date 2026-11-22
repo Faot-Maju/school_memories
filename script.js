@@ -43,7 +43,7 @@ const ETAPAS = [
     titulo: "Ensino Fundamental I (1º ao 5º ano)",
     periodo: "2015 – 2019",
     escola: "Escola Municipal Jornalista Cláudio Abramo",
-    fotos: F("fundamental-1", ["Começo dessa fase", "Foto com amigos", "Evento / passeio", "Foto da formatura do 5º ano"]),
+    fotos: F("fundamental-1", ["Foto capa dessa fase", "Foto com amigos", "Evento / passeio", "Foto da formatura do 5º ano"]),
     resumo: "O Ensino Fundamental I foi uma fase cheia de descobertas, aprendizados e histórias que ainda me fazem sorrir. " +
             "Foi uma fase em que cresci, aprendi, fiz amizades e vivi momentos que, hoje, percebo que foram muito maiores do que pareciam na época. " +
             "São lembranças que sempre terão um lugar especial na minha história.",
