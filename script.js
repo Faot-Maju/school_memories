@@ -340,6 +340,71 @@ Em primeira análise, a falta de investimentos e de manutenção adequada consti
 Ademais, a falta de conscientização da sociedade também prejudica a preservação do patrimônio histórico. Quando a população não reconhece a importância desses espaços, podem ocorrer atos de vandalismo, pichações e outras formas de depredação. Nesse contexto, a educação patrimonial torna-se importante para aproximar os cidadãos de sua própria história e mostrar a necessidade de preservar esses locais. Assim, a falta de conhecimento sobre o valor cultural dos monumentos contribui para sua desvalorização e conservação inadequada.
 
 Em síntese, cabe ao Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN), em parceria com os governos estaduais e municipais, ampliar os investimentos destinados à restauração e à manutenção dos monumentos históricos, por meio de projetos de conservação e fiscalização. Além disso, as escolas devem promover ações de educação patrimonial, como palestras e projetos sobre a história dos monumentos locais, a fim de conscientizar os estudantes sobre a importância desses patrimônios. Desse modo, será possível fortalecer a valorização da memória brasileira e contribuir para a preservação desses espaços para as futuras gerações`
+  },
+
+  /* ---------- REDAÇÃO 13 ---------- */
+  {
+    titulo: "Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 200, 200, 200, 200],
+    texto: `Na obra cinematográfica Interestelar, dirigida por Christopher Nolan, a exploração espacial é apresentada como uma alternativa para a sobrevivência da humanidade diante de problemas ambientais na Terra. O século XXI tem sido marcado pelo avanço de missões espaciais, satélites e pesquisas que ampliam o conhecimento sobre o Universo. Entretanto, esse progresso também levanta questionamentos relacionados à responsabilidade social, principalmente diante da desigualdade no acesso aos benefícios científicos e dos impactos ambientais provocados pelas atividades espaciais. Nesse contexto, é necessário conciliar o desenvolvimento científico com a redução das desigualdades e a preservação ambiental.
+
+Em primeiro lugar, é importante destacar que os benefícios da exploração espacial não são distribuídos igualmente entre a população. Embora algumas tecnologias desenvolvidas para missões espaciais possam ser utilizadas em áreas como comunicação, agricultura e previsão do clima, muitas pessoas ainda não possuem acesso adequado a esses recursos. Segundo o princípio da igualdade presente na Constituição Federal de 1988, todos devem ter seus direitos assegurados. Dessa maneira, quando os investimentos científicos ficam concentrados em poucos países ou grupos econômicos, enquanto parte da população enfrenta problemas relacionados à educação e à infraestrutura, percebe-se uma desigualdade entre o avanço tecnológico e o desenvolvimento social.
+
+Além disso, o crescimento das atividades espaciais também pode causar impactos ambientais. O aumento da quantidade de satélites e de lançamentos contribui para a formação de detritos espaciais, que podem permanecer em órbita e causar problemas para outras missões. Dessa forma, o desenvolvimento científico precisa considerar também os possíveis impactos de suas atividades. Caso não existam medidas adequadas para controlar esses resíduos, a exploração espacial poderá gerar dificuldades para futuras pesquisas e missões.
+
+Diante disso, cabe à Organização das Nações Unidas, em parceria com agências espaciais e governos nacionais, estabelecer normas para tornar a exploração espacial mais responsável, por meio da criação de limites para a produção de detritos e da fiscalização das empresas do setor. Além disso, os governos devem ampliar os investimentos em educação científica e tecnologia, principalmente em regiões mais vulneráveis, por meio de programas públicos e parcerias com instituições de ensino. Assim, será possível promover o avanço da exploração espacial de forma mais equilibrada, fazendo com que seus benefícios contribuam para o desenvolvimento da sociedade e para a preservação do meio ambiente`
+  },
+
+  /* ---------- REDAÇÃO 14 ---------- */
+  {
+    titulo: "Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 200, 200, 200, 200],
+    texto: `Na animação Rio, é retratada a importância da preservação das espécies brasileiras, especialmente das aves ameaçadas de extinção. Fora da ficção, a fauna do Brasil enfrenta diversos desafios que comprometem a biodiversidade e o equilíbrio dos ecossistemas. Nesse contexto, destacam-se a destruição dos habitats naturais e a falta de fiscalização ambiental como fatores que dificultam a conservação das espécies.
+
+Sob essa perspectiva, a destruição dos habitats naturais contribui diretamente para o desaparecimento de animais silvestres. Isso ocorre porque o desmatamento, as queimadas e a expansão das atividades agropecuárias reduzem os espaços disponíveis para alimentação e reprodução das espécies. Como consequência, animais como a onça-pintada e o mico-leão-dourado ficam mais vulneráveis, o que ameaça a biodiversidade e prejudica o funcionamento dos ecossistemas.
+
+Ademais, a fiscalização ambiental insuficiente dificulta o combate a práticas ilegais, como o tráfico de animais silvestres e a caça predatória. Nesse sentido, a captura de animais para comercialização retira indivíduos de seus habitats e pode comprometer a reprodução de determinadas espécies. Dessa forma, a permanência desses crimes agrava o risco de extinção e evidencia a necessidade de medidas mais eficazes de proteção à fauna brasileira.
+
+Diante do exposto, o Ministério do Meio Ambiente e Mudança do Clima, em parceria com o Ibama, deve ampliar a proteção das espécies ameaçadas por meio do fortalecimento da fiscalização, com mais operações em áreas de risco e aplicação das penalidades previstas em lei. Ademais, as escolas devem promover campanhas de educação ambiental, por meio de palestras e projetos educativos, a fim de conscientizar a população sobre a importância da preservação dos animais. Assim, será possível proteger a biodiversidade brasileira e contribuir para o equilíbrio ecológico`
+  },
+
+  /* ---------- REDAÇÃO 15 ---------- */
+  {
+    titulo: "Migração e acolhimento: desafios da convivência em contextos globais",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 200, 200, 200, 200],
+    texto: `Na obra Vidas Secas, de Graciliano Ramos, é retratada a trajetória de uma família que enfrenta a pobreza e a necessidade de abandonar sua terra em busca de melhores condições de vida. Fora da ficção, essa realidade relaciona-se aos desafios enfrentados por migrantes em diferentes partes do mundo, que buscam novas oportunidades, mas encontram dificuldades para se estabelecer nos países de destino. Nesse contexto, a exploração da mão de obra imigrante e a xenofobia são problemas que dificultam a inclusão desses indivíduos na sociedade.
+
+Em primeira análise, a exploração da mão de obra imigrante contribui para o aumento das desigualdades sociais. Isso acontece porque muitos estrangeiros precisam trabalhar para garantir sua sobrevivência e, por isso, acabam aceitando empregos com baixos salários e condições inadequadas. Dessa maneira, alguns empregadores aproveitam a situação de vulnerabilidade desses trabalhadores para oferecer condições de trabalho inferiores. Como consequência, muitos imigrantes enfrentam dificuldades financeiras e não conseguem melhorar sua qualidade de vida.
+
+Ademais, a xenofobia prejudica a integração dos estrangeiros nas comunidades em que passam a viver. Nesse sentido, a Declaração Universal dos Direitos Humanos, criada pela Organização das Nações Unidas (ONU) em 1948, defende que todos os indivíduos devem ter seus direitos respeitados. Entretanto, esse princípio nem sempre é colocado em prática, pois muitos migrantes sofrem preconceito por causa de sua nacionalidade, cultura ou religião. Assim, essas atitudes dificultam a convivência entre os povos e fazem com que os estrangeiros tenham mais dificuldades para se adaptar ao novo país.
+
+Em suma, é necessário adotar medidas para diminuir os problemas enfrentados pelos imigrantes. Para isso, o Ministério do Trabalho e Emprego deve fiscalizar as empresas que contratam estrangeiros, por meio de visitas aos locais de trabalho, a fim de combater a exploração trabalhista. Além disso, o Ministério dos Direitos Humanos e da Cidadania deve promover campanhas de conscientização nas escolas e nas redes sociais para combater a xenofobia e incentivar o respeito às diferentes culturas. Dessa forma, será possível melhorar as condições de vida dos migrantes e construir uma sociedade mais inclusiva`
+  },
+
+  /* ---------- REDAÇÃO 16 ---------- */
+  {
+    titulo: "El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [200, 200, 200, 200, 200],
+    texto: `Na obra O Dia Depois de Amanhã, dirigida por Roland Emmerich, são retratadas catástrofes ambientais provocadas por alterações climáticas que ameaçam a sobrevivência humana. Fora da ficção, essa realidade relaciona-se aos desafios enfrentados pela sociedade contemporânea diante de fenômenos como o El Niño, que intensifica eventos climáticos extremos em diferentes regiões do planeta. Nesse contexto, a falta de planejamento governamental e a insuficiência da conscientização ambiental representam obstáculos à preparação da população para essas adversidades.
+
+Em primeiro lugar, a falta de planejamento governamental compromete a capacidade da sociedade de enfrentar eventos climáticos extremos. Isso ocorre porque a ausência de investimentos em infraestrutura, sistemas de drenagem e mecanismos de monitoramento dificulta a prevenção de desastres. Nesse sentido, regiões vulneráveis tornam-se mais suscetíveis a enchentes, secas e deslizamentos, colocando em risco a vida da população. Como consequência, os impactos desses fenômenos são agravados, evidenciando a necessidade de medidas preventivas eficazes por parte do poder público.
+
+Além disso, a insuficiente conscientização ambiental contribui para o agravamento dos problemas climáticos. Sob essa perspectiva, o filósofo Hans Jonas, em sua obra O Princípio Responsabilidade, defende que a humanidade deve agir com responsabilidade diante das consequências de suas ações sobre o futuro. Entretanto, a falta de conhecimento sobre as mudanças climáticas e a preservação ambiental dificulta a adoção de práticas sustentáveis. Dessa forma, a negligência coletiva favorece a degradação do meio ambiente e aumenta a vulnerabilidade das comunidades diante de eventos extremos.
+
+Em suma, é necessário ampliar a preparação da sociedade para enfrentar os desafios climáticos. Para isso, o Ministério do Meio Ambiente e Mudança do Clima, em parceria com as prefeituras, deve fortalecer as políticas de prevenção de desastres, por meio da ampliação de sistemas de alerta, do investimento em infraestrutura e da realização de campanhas educativas nas escolas e nos meios de comunicação. Essas medidas devem informar a população sobre os riscos climáticos e orientar ações preventivas. Assim, será possível reduzir os impactos dos eventos extremos e construir uma sociedade mais segura e resiliente`
+  },
+
+  /* ---------- REDAÇÃO 17 ---------- */
+  {
+    titulo: "Obsolescência tecnológica e descarte de resíduos eletrônicos: desafios para a sustentabilidade no Brasil",
+    tema: "Dissertativo-argumentativo", ano: "3º ano", data: "2026", notas: [160, 160, 160, 180, 180],
+    texto: `Na obra "Wall-e" da Pixar, é retratado um mundo devastado pela poluição e pelo consumismo. Fora da ficção, a obsolescência programada e o descarte incorreto de resíduos eletrônicos se fazem ativos. Nesse contexto a falta de conhecimento sobre os pontos de descarte e a redução do tempo de vida dos eletrônicos, impactam diretamente na sustentabilidade brasileira.
+
+Em primeira análise, identifica-se a ausência de conhecimento sobre o descarte correto de resíduos eletrônicos. Para ilustrar essa premissa, de acordo com o jornal "Estadão" mais de 74% de lixo eletrônico mundial é descartado incorretamente. Sob essa perspectiva, compreende-se que grande parte da população não reconhece os pontos de coleta de lixo eletrônico, assim contribuindo para o crescimento da poluição.
+
+Ademais, a redução da durabilidade dos eletrônicos intensificam o consumismo desenfreado. De acordo com o sociólogo Balman, " A sociedade vive de status". Sob essa perspectiva, entende-se que a sociedade necessita sempre de algo novo mais novo/tecnológico, nesse sentido as empresas, visando lucro, diminuem a vida útil dos aparelhos, para que o indivíduo obrigasse a comprar uma mais atual. Tal problemática intensifica os desafios para uma pais sustentável.
+
+Em suma, é necessário combater os desafios relacionados ao lixo eletrônico e à obsolescência programada. Para isso, cabe ao Ministério da Educação em articulação com o Ministério do Meio Ambiente, ampliar os pontos de coleta e promover o consumo responsável, bem como da destinação obrigatória de recursos do Fundo Nacional de educação. Tal iniciativa tem como finalidade diminuir a poluição de resíduos tecnológicos e conscientizar o consumo consciente. Dessa forma, ao atuar de maneira educativa, o Estado poderá mitigar a problemática.`
   }
 ];
 
