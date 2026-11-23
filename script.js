@@ -111,7 +111,7 @@ const ETAPAS = [
     titulo: "2º ano do Ensino Médio",
     periodo: "2025",
     escola: "Colégio Estadual Padre Claudio Morelli e Highcliffe School (Inglaterra)",
-    fotos: F("2-ano", ["Foto de capa do 2º ano", "Foto com os amigos", "Projeto / trabalho em grupo", "Momento descontraído"]),
+    fotos: F("2-ano", ["2º ano", "Foto com os amigos", "Turma", "British friend"]),
     resumo: "No 2º ano, estudei até agosto no Brasil, no Morelli. Depois disso, entrei na Highcliffe School, na Inglaterra. " +
             "Foi um ano de muitas descobertas, desafios e amizades.",
     causos: [
@@ -137,7 +137,7 @@ const ETAPAS = [
     titulo: "3º ano — a reta final",
     periodo: "2026",
     escola: "Colégio Estadual Padre Claudio Morelli",
-    fotos: F("3-ano", ["Foto de capa do 3º ano", "Foto com a turma", "Simulado / Enem", "Último dia de aula"]),
+    fotos: F("3-ano", ["3º ano", "Friends", "FRC", "Beca day"]),
     resumo: "O 3º ano foi a reta final da minha vida escolar. Comecei a fase de estudos para o vestibular, fiz muitos simulados " +
             "e aproveitei muito o ano com os meus amigos.",
     causos: [
@@ -191,8 +191,8 @@ const PROGRAMA = {
     "Uma das maiores riquezas que o Ganhando o Mundo me trouxe foram as pessoas que tive a sorte de encontrar pelo caminho."
   ],
   fotos: F("programa", [
-    "Foto de abertura do programa", "Foto com os colegas do programa", "Atividade marcante",
-    "Projeto / entrega final", "Momento descontraído", "Foto do encerramento"
+    "London", "Oxford", "Pamelita",
+    "The Girls", "Burley", "Host family"
   ])
 };
 
